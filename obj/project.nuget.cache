@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ypSJuyimoDEHaCTlKKzLYWSJ5DBHQaMpaWV0hBAz0SIhp/fSPRBDr2aUOU1geZl0QPZxKcxaB993Iyd2nmAyRg==",
+  "dgSpecHash": "cdePnnvSysSFh6wsFOBVtkrIPcX8CW7NwSORgHU01ipCE8Nz7NlqnOwtflffLIZDre2T+myLxDb2P/XbpLxtQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vcengiz\\source\\repos\\Infera WebApi\\Infera WebApi.csproj",
+  "projectFilePath": "C:\\Source\\GithubCCN\\InferaWebAPI\\Infera WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vcengiz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\vcengiz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
