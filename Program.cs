@@ -1,7 +1,12 @@
+using Infera_WebApi.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+IConfiguration config = builder.Configuration;
 
 // Add services to the container.
-
+builder.Services.AddDbContext<SqlServerDbContext>(opt =>
+    opt.UseSqlServer(config.GetConnectionString("SqlServerConnection")));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
