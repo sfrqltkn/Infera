@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\GithubCCN\\InferaWebAPI\\Infera WebApi.csproj": {}
+    "C:\\Users\\ccnamcaank\\Desktop\\proje\\InferaWebAPI\\Infera WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Source\\GithubCCN\\InferaWebAPI\\Infera WebApi.csproj": {
+    "C:\\Users\\ccnamcaank\\Desktop\\proje\\InferaWebAPI\\Infera WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\GithubCCN\\InferaWebAPI\\Infera WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\proje\\InferaWebAPI\\Infera WebApi.csproj",
         "projectName": "Infera WebApi",
-        "projectPath": "C:\\Source\\GithubCCN\\InferaWebAPI\\Infera WebApi.csproj",
-        "packagesPath": "C:\\Users\\vcengiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\GithubCCN\\InferaWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\proje\\InferaWebAPI\\Infera WebApi.csproj",
+        "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\proje\\InferaWebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vcengiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +43,22 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt.Net": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "DataAnnotationsExtensions": {
+              "target": "Package",
+              "version": "[5.0.1.27, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -83,6 +95,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -103,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
